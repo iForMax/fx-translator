@@ -1,4 +1,4 @@
-rootProject.name = "labymod4-addon-template"
+rootProject.name = "FX Translator"
 
 pluginManagement {
     val labyGradlePluginVersion = "0.5.9"

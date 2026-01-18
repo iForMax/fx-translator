@@ -5,11 +5,11 @@ plugins {
 
 val versions = providers.gradleProperty("net.labymod.minecraft-versions").get().split(";")
 
-group = "org.example"
+group = "me.firas"
 version = providers.environmentVariable("VERSION").getOrElse("1.0.0")
 
 labyMod {
-    defaultPackageName = "org.example" //change this to your main package name (used by all modules)
+    defaultPackageName = "me.firas" //change this to your main package name (used by all modules)
 
     minecraft {
         registerVersion(versions.toTypedArray()) {
@@ -23,10 +23,10 @@ labyMod {
     }
 
     addonInfo {
-        namespace = "example"
-        displayName = "ExampleAddon"
-        author = "Example Author"
-        description = "Example Description"
+        namespace = "fxtranslator"
+        displayName = "FX Translator"
+        author = "Webmasters"
+        description = "delivers seamless multilingual communication with support for industry-leading translation engines, smart caching technology, and flexible display configurations for an optimal chat experience."
         minecraftVersion = "*"
         version = rootProject.version.toString()
     }

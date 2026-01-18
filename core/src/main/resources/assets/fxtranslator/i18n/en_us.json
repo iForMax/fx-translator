@@ -1,0 +1,176 @@
+{
+  "fxtranslator": {
+    "settings": {
+      "name": "FX Translator",
+      "enabled": {
+        "name": "Enabled",
+        "description": "Enable or disable the FX Translator addon"
+      },
+      "header": {
+        "button": {
+          "name": "Button Settings"
+        },
+        "translation": {
+          "name": "Translation Settings"
+        },
+        "deepl": {
+          "name": "DeepL Auth"
+        },
+        "azure": {
+          "name": "Azure Auth"
+        },
+        "libretranslate": {
+          "name": "LibreTranslate"
+        },
+        "display": {
+          "name": "Display Settings"
+        },
+        "reset": {
+          "name": "Reset Settings"
+        }
+      },
+      "buttonText": {
+        "name": "Button Text",
+        "description": "Text displayed on the translate button (e.g., [T], Translate)"
+      },
+      "showButtonOnOwnMessages": {
+        "name": "Show Button on Own Messages",
+        "description": "Display the translate button on your own messages"
+      },
+      "translatorEngine": {
+        "name": "Translation Engine",
+        "description": "Choose which translation service to use",
+        "entries": {
+          "google": "Google Translate",
+          "libretranslate": "LibreTranslate",
+          "deepl": "DeepL",
+          "azure": "Azure Translator"
+        }
+      },
+      "sourceLanguage": {
+        "name": "Source Language",
+        "description": "Language to translate from (Auto Detect recommended)",
+        "entries": {
+          "auto": "Auto Detect",
+          "english": "English",
+          "spanish": "Spanish",
+          "french": "French",
+          "german": "German",
+          "italian": "Italian",
+          "portuguese": "Portuguese",
+          "russian": "Russian",
+          "japanese": "Japanese",
+          "chinese": "Chinese",
+          "korean": "Korean",
+          "arabic": "Arabic",
+          "dutch": "Dutch",
+          "polish": "Polish",
+          "turkish": "Turkish",
+          "swedish": "Swedish",
+          "hindi": "Hindi",
+          "czech": "Czech",
+          "danish": "Danish",
+          "finnish": "Finnish",
+          "greek": "Greek",
+          "hungarian": "Hungarian",
+          "indonesian": "Indonesian",
+          "norwegian": "Norwegian",
+          "romanian": "Romanian",
+          "ukrainian": "Ukrainian",
+          "vietnamese": "Vietnamese"
+        }
+      },
+      "targetLanguage": {
+        "name": "Target Language",
+        "description": "Language to translate to",
+        "entries": {
+          "english": "English",
+          "spanish": "Spanish",
+          "french": "French",
+          "german": "German",
+          "italian": "Italian",
+          "portuguese": "Portuguese",
+          "russian": "Russian",
+          "japanese": "Japanese",
+          "chinese": "Chinese",
+          "korean": "Korean",
+          "arabic": "Arabic",
+          "dutch": "Dutch",
+          "polish": "Polish",
+          "turkish": "Turkish",
+          "swedish": "Swedish",
+          "hindi": "Hindi",
+          "czech": "Czech",
+          "danish": "Danish",
+          "finnish": "Finnish",
+          "greek": "Greek",
+          "hungarian": "Hungarian",
+          "indonesian": "Indonesian",
+          "norwegian": "Norwegian",
+          "romanian": "Romanian",
+          "ukrainian": "Ukrainian",
+          "vietnamese": "Vietnamese"
+        }
+      },
+      "enableCache": {
+        "name": "Enable Translation Cache",
+        "description": "Cache translations to improve performance and reduce API calls"
+      },
+      "deeplApiKey": {
+        "name": "DeepL API Key",
+        "description": "Your DeepL API authentication key (required for DeepL translation). Get yours at https://www.deepl.com/pro-api"
+      },
+      "deeplUseFreeApi": {
+        "name": "Use DeepL Free API",
+        "description": "Enable if you're using a DeepL Free API key, disable for DeepL Pro API"
+      },
+      "azureApiKey": {
+        "name": "Azure API Key",
+        "description": "Your Azure Translator subscription key (required for Azure translation). Get yours from Azure Portal"
+      },
+      "azureRegion": {
+        "name": "Azure Region",
+        "description": "Azure region for your Translator resource (e.g., eastus, westeurope). Find this in your Azure Portal"
+      },
+      "azureEndpoint": {
+        "name": "Azure Endpoint",
+        "description": "Azure Translator endpoint URL (default: https://api.cognitive.microsofttranslator.com)"
+      },
+      "libreTranslateApiKey": {
+        "name": "LibreTranslate API Key",
+        "description": "API key for LibreTranslate"
+      },
+      "showLoadingMessage": {
+        "name": "Show Loading Message",
+        "description": "Display 'Translating...' message while translation is in progress"
+      },
+      "showTranslatedPrefix": {
+        "name": "Show 'Translated' Prefix",
+        "description": "Display 'Translated: ' before the translated message"
+      },
+      "preserveMessageColors": {
+        "name": "Preserve Message Colors",
+        "description": "Keep the original message colors and formatting in the translated text"
+      },
+      "resetToDefaults": {
+        "name": "Reset to Defaults",
+        "description": "Made a mistake with your settings? No worries! Click this button to reset everything back to default values, just like when you first installed the addon",
+        "text": "Click"
+      }
+    },
+    "command": {
+      "usage": "Usage: /fxtranslate <message>",
+      "disabled": "FX Translator is currently disabled!",
+      "noText": "No text to translate!",
+      "translating": "Translating...",
+      "translated": "Translated: ",
+      "failed": "Translation failed: "
+    },
+    "chat": {
+      "hoverText": "Click to translate this message",
+      "tooltipHint": "Click to translate",
+      "loading": "[Translating...]",
+      "error": "[Translation Error]"
+    }
+  }
+}
