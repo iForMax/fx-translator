@@ -40,6 +40,10 @@ public class ChatTranslateListener {
    */
   @Subscribe()
   public void onChatSend(ChatMessageSendEvent event) {
+    if (!this.addon.configuration().enabled().get()) {
+      return;
+    }
+
     String message = event.getMessage();
 
     // Don't track commands
